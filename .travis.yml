@@ -6,6 +6,8 @@ before_install:
 cache:
   directories:
     - "node_modules"
+env:
+  - NO_SANDBOX=true
 script:
   - npm run lint
   - npm test
