@@ -6,6 +6,6 @@ before_install:
 install: npm ci
 script:
   - npm ci
-  - npm lint
+  - npm run lint
   - npm test
   - npm run build
