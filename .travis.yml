@@ -10,5 +10,5 @@ env:
   - NO_SANDBOX=true
 script:
   - npm run lint
-  - npm test
   - npm run build
+  - npm test
