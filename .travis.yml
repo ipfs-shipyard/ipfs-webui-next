@@ -3,6 +3,7 @@ node_js:
   - 8
 before_install:
   - npm i -g npm@6.0.0
+install: npm ci
 script:
   - npm ci
   - npm lint
